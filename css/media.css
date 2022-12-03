@@ -1,0 +1,134 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  #hero .hero {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  #swipet {
+    padding: 0 0 50px 0;
+  }
+  #new .new {
+    flex-direction: column-reverse;
+  }
+  #net .new {
+    flex-direction: column;
+  }
+  #fly {
+    padding: 83px 0;
+  }
+  #fly .fly {
+    flex-direction: column;
+  }
+  #still {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 576px) {
+  #header .header--nav a {
+    display: none;
+  }
+  #hero .hero img {
+    width: 90%;
+  }
+  #hero .hero--nov button {
+    margin: 29px 42px 22px;
+  }
+  #hero .hero--nov h1 {
+    font-size: 44px;
+  }
+  #hero .hero--nov__input {
+    width: 200px;
+  }
+  #still .still2 {
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  #new .new--taitle button {
+    margin: 29px 56px 22px;
+  }
+  #new .new img {
+    width: 90%;
+  }
+  #swipet .swipet2 {
+    margin: 20px 0 0 0;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  #fly .fly--nav p {
+    width: 285px;
+    font-weight: 400;
+    font-size: 19px;
+  }
+  #fly .fly--face img {
+    width: 90%;
+  }
+  #fly .fly--face__men {
+    left: -59px;
+  }
+  #net .new button {
+    margin: 29px 57px 22px;
+  }
+  #net .new img {
+    width: 90%;
+  }
+  #footer .footer {
+    flex-flow: wrap;
+  }
+}
+@media (max-width: 376px) {
+  #fly .fly--nav p {
+    width: 285px;
+    font-weight: 400;
+    font-size: 19px;
+  }
+  #footer .footer--center p {
+    padding: 60px 0 0 0;
+    width: 330px;
+    font-weight: 300;
+    font-size: 23px;
+  }
+}
+@media (max-width: 320px) {
+  #footer {
+    padding: 2px 0;
+  }
+  #footer .icons {
+    flex-flow: wrap;
+  }
+  #footer .icons a {
+    font-size: 30px;
+  }
+  #footer .footer--end h1 {
+    font-size: 15px;
+  }
+  #footer .footer--center img {
+    margin-left: 97px;
+  }
+  #footer .footer--center p {
+    padding: 17px 0 0 0;
+    width: 225px;
+  }
+  #swipet .swipet2 h1 {
+    font-size: 30px;
+  }
+  #still .still2 h1 {
+    font-size: 30px;
+  }
+  #net .new--taitle h1 {
+    font-size: 26px;
+  }
+  #net .new img {
+    width: 103%;
+    margin-top: 36px;
+  }
+  #fly .fly--face__men {
+    left: -111px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

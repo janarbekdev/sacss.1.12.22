@@ -1,0 +1,60 @@
+@mixin last{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin btn {
+  background: transparent;
+  padding: 10px 30px;
+  border: 1px solid gold;
+  font-weight: 500;
+  font-size: 15px;
+  color: #FB8F1D;
+  mix-blend-mode: normal;
+}
+@mixin btn2 {
+  background: goldenrod;
+  padding: 14px 33px;
+  border: 1px solid gold;
+  font-weight: 500;
+  font-size: 15px;
+  color: $w;
+transition: 1s;
+  &:hover{
+  transform: scale(1.1);
+  border-bottom: 2px solid blue;
+}
+
+}
+@mixin h1{
+  line-height: 30px;
+  font-size: 36px;
+  color: black;
+  font-weight: 900;
+}
+@mixin hever{
+  &:hover{
+   color: #00ff15;
+    transform: scale(1.1);
+  }
+
+}
+@mixin hever2{
+  &:hover{
+   color: red;
+    transform: scale(1);
+  }
+
+}
+@mixin icon{
+  &:hover{
+   color: #0015ff;
+    transform: scale(1.1);
+  }
+
+}
+@mixin img{
+  img{
+    width: 90%;
+  }
+}
